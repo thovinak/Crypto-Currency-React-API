@@ -1,0 +1,53 @@
+.graph {
+    width: 100%;
+    padding: 8rem 0;
+    /* background-color: var(--background);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%); */
+}
+
+.graph .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.graph #target-element {
+    width: 80%;
+    /* Adjust the width of the graph as needed */
+    margin: auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.graph h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.graph #target-element p {
+    text-align: center;
+    color: #666;
+    /* Example color */
+    padding: 0 2rem;
+    /* Example padding */
+    font-size: 1rem;
+    /* Example font size */
+}
+
+
+/* Responsive design adjustments */
+@media screen and (max-width: 940px) {
+    .graph #target-element {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .graph #target-element {
+        width: 100%;
+        padding: 1rem;
+    }
+}

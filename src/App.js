@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from "react";  // Import useRef
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Featured from "./components/Featured";
+import Graph from "./components/Graph";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
+  const featuredRef = useRef(null);
+  const graphRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <>
+        <Navbar
+          onFeaturedClick={() => scrollToSection(featuredRef)}
+          onGraphClick={() => scrollToSection(graphRef)}
+          onContactClick={() => scrollToSection(contactRef)}
+        />
+
+        <Hero />
+
+        <div ref={featuredRef}><Featured /></div>
+
+        <div ref={graphRef}><Graph /></div>
+
+        <div ref={contactRef}><Contact /></div>
+
+        <Footer />
+      </>
+    </Router>
   );
 }
 
 export default App;
+
+
+
