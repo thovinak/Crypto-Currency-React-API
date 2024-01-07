@@ -5,6 +5,10 @@
     text-align: center; */
 }
 
+.colors {
+    color: var(--primary);
+}
+
 .contact-form {
     max-width: 500px;
     margin: auto;
