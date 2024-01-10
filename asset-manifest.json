@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Crypto-Currency-React-API/static/css/main.49a75d4a.css",
-    "main.js": "/Crypto-Currency-React-API/static/js/main.e82b4187.js",
+    "main.css": "/Crypto-Currency-React-API/static/css/main.5cae0dff.css",
+    "main.js": "/Crypto-Currency-React-API/static/js/main.3db64fc8.js",
     "static/media/hero-img.png": "/Crypto-Currency-React-API/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
     "index.html": "/Crypto-Currency-React-API/index.html",
-    "main.49a75d4a.css.map": "/Crypto-Currency-React-API/static/css/main.49a75d4a.css.map",
-    "main.e82b4187.js.map": "/Crypto-Currency-React-API/static/js/main.e82b4187.js.map"
+    "main.5cae0dff.css.map": "/Crypto-Currency-React-API/static/css/main.5cae0dff.css.map",
+    "main.3db64fc8.js.map": "/Crypto-Currency-React-API/static/js/main.3db64fc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.49a75d4a.css",
-    "static/js/main.e82b4187.js"
+    "static/css/main.5cae0dff.css",
+    "static/js/main.3db64fc8.js"
   ]
 }
