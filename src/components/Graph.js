@@ -62,9 +62,9 @@ const Graph = () => {
     };
 
     const element = document.getElementById("target-element");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    // if (element) {
+    //   element.scrollIntoView({ behavior: "smooth", block: "start" });
+    // }
 
     const dataTimeStamp = localStorage.getItem('dataTimeStamp');
     const now = new Date().getTime();
@@ -85,11 +85,11 @@ const Graph = () => {
     <div className="graph">
       <div id="target-element">
         <h1>Bitcoin Price Chart</h1>
-        <p>This chart showcases the fluctuating value of Bitcoin over the last 14 days, with data pulled from a cryptocurrency API.</p>
+        <p>This chart showcases the fluctuating value of <b>  Bitcoin over the last 14 days </b>, with data pulled from a cryptocurrency API.</p>
         <Line data={bitcoinData} />
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Graph;

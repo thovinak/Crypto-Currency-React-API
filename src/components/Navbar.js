@@ -11,7 +11,7 @@ const Navbar = ({ onHomeClick, onFeaturedClick, onGraphClick, onContactClick }) 
     <div className="header">
       <div className="container">
         <h1>
-          Crypto<span className="primary">Finance </span>
+          <a href="#/" onClick={onHomeClick}>Crypto<span className="primary">Finance </span> </a>
         </h1>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>

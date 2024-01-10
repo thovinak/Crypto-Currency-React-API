@@ -13,11 +13,13 @@ const Hero = () => {
             Exploring <span className="primary">CryptoCurrency </span>with
             React.
           </h1>
-          <p>
-            This is a React website that uses <b>CoinBase API</b> to get the
-            latest and most accurate information about the <b>Top 6 </b>
-            CryptoCurrencies in Canada.
-          </p>
+          <ul>
+    <li> This platform seamlessly integrates <strong>React</strong>, <strong>Axios</strong>, and <strong>Chart.js</strong> for a smooth user experience.</li>
+    <li><strong>Real-Time Crypto Insights:</strong> Stay updated with the latest information on the top 6 cryptocurrencies in the market.</li>
+    <li><strong>Detailed Analytics:</strong> Explore an in-depth price chart for the leading cryptocurrency, dynamically updated for the most current data.</li>
+</ul>
+
+
 
           {/* <div className="input-container">
             <input type="email" placeholder="Enter your email" />

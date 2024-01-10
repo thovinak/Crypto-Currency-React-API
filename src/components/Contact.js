@@ -5,9 +5,22 @@ import './Contact.css'; // Assuming you have a Contact.css for styling
 const Contact = () => {
     return (
       <div className="contact-section">
-        <h2>Contact Me!</h2>
+
+<div className="container">
+        {/* Left Side */}
+        <div className="left">
+        <h1>
+             <span className="primary">Contact  </span> Me! 
+          </h1>
         <br></br>
-        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:thovinak@mcmaster.ca">thovinak@mcmaster.ca</a>.</p>
+        <p>If you'd like to get in touch, feel free to email me at <span > <a href="mailto:thovinak@mcmaster.ca" className="primary">thovinak@mcmaster.ca</a> </span>   </p>
+        
+         
+        </div>
+
+      
+      </div>
+      
       </div>
     );
   };

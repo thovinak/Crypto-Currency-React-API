@@ -33,21 +33,14 @@
     margin: auto;
 }
 
+ul.hero {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
 @media screen and (max-width: 940px) {
     .hero .container {
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

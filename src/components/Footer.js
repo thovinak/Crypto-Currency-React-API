@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>De<span className='primary'>Fi</span></h1>
+                    <h2>Crypto<span className='primary'>Finance</span></h2>
                 </div>
                 <div className='col'>
                     <h5>Support (WPI) </h5>
@@ -18,7 +18,7 @@ const Footer = () => {
                         <a href='/'>FAQ</a>
 
                 </div>
-                <div className='col'>
+                <div className='col '>
                     <h5>Developers (WPI) </h5>
                     <span className='bar'> </span>
                         <a href='/'>Cloud</a>
